@@ -88,9 +88,7 @@ public class Course {
             if (students.get(i).name.equals(stud.name)) {
                 students.get(i).addCourse(this);
             }
-
         }
-
     }
 
     /**

@@ -1,7 +1,13 @@
 package com.aanorbel.lab4;
-
+/**
+ * 
+ * @author anorbel
+ */
 public class Main {
-
+/**
+ * 
+ * @param args 
+ */
     public static void main(String[] args) {
         double[] scores = {82.4, 72.6, 90, 96.8, 86.1};
 
@@ -19,14 +25,21 @@ public class Main {
 
         histogram(scores);
     }
-
+/**
+ * 
+ * @param scores 
+ */
     public static void printGrades(double[] scores) {
         System.out.println("Letter grades : ");
         for (int i = 0; i < scores.length; i++) {
             System.out.println(scores[i] + " = " + letterGrade(scores[i]));
         }
     }
-
+/**
+ * 
+ * @param scores
+ * @return 
+ */
     public static char letterGrade(double scores) {
         char val;
         if (scores >= 90) {
@@ -42,7 +55,10 @@ public class Main {
         }
         return val;
     }
-
+/**
+ * 
+ * @param scores 
+ */
     public static void histogram(double[] scores) {
         System.out.print("A : ");
         for (int i = 0; i < scores.length; i++) {
@@ -84,7 +100,11 @@ public class Main {
         }
         System.out.println(" ");
     }
-
+/**
+ * 
+ * @param scores
+ * @return 
+ */
     public static double maxScore(double[] scores) {
         double max = scores[0];
         for (int i = 0; i < scores.length; i++) {
@@ -94,7 +114,11 @@ public class Main {
         }
         return max;
     }
-
+/**
+ * 
+ * @param scores
+ * @return 
+ */
     public static double aveScore(double[] scores) {
         double sum = 0;
         for (int i = 0; i < scores.length; i++) {
@@ -102,7 +126,10 @@ public class Main {
         }
         return sum / scores.length;
     }
-
+/**
+ * 
+ * @param scores 
+ */
     public static void printScores(double[] scores) {
         System.out.print("The Scores are : ");
         for (int i = 0; i < scores.length; i++) {

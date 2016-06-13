@@ -1,7 +1,7 @@
 package com.aanorbel.lab5;
 
 /**
- *
+ *Student
  */
 public class Student {
 

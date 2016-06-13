@@ -1,7 +1,14 @@
 package com.aanorbel.lab3;
-
+/**
+ * 
+ * @author anorbel
+ */
 public class Main {
-
+/**
+ * 
+ * 
+ * @param args 
+ */
     public static void main(String[] args) {
         double[] scores = {82.4, 72.6, 90, 96.8, 86.1};
 

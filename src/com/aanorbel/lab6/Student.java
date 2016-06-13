@@ -94,23 +94,22 @@ public class Student {
      */
     @Override
     public String toString() {
-        String remark = "Fail";
+        String remark;
         String replyToString = " ";
         replyToString = replyToString + this.getName();
         replyToString = replyToString + "\n----------------------------------------------------\n";
         replyToString += "Course \tMark \tRemark \n";
-        for (int i = 0; i < this.courses.size(); i++) {
-            double average = this.courses.get(i).averageAll();
-            for (int j = 0; j < courses.get(i).students.size(); j++) {
-                double grade = this.courses.get(i).studentGrades.get(j);
-                if (this.courses.get(i).students.get(j).name.equals(getName())) {
-
+        for (Course course : this.courses) {
+            double average = course.averageAll();
+            for (int j = 0; j < course.students.size(); j++) {
+                double grade = course.studentGrades.get(j);
+                if (course.students.get(j).name.equals(getName())) {
                     if (grade >= average) {
                         remark = grade + "   Pass ";
                     } else {
                         remark = grade + "   Fail ";
                     }
-                    replyToString += this.courses.get(i).courseName + "   " + remark + "\n";
+                    replyToString += course.courseName + "   " + remark + "\n";
                 }
             }
         }

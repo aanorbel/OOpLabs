@@ -32,8 +32,8 @@ public class Course {
          * total marks
          */
         double total = 0.0;
-        for (int i = 0; i < students.length; i++) {
-            total += students[i].getPoint();
+        for (Student student : students) {
+            total += student.getPoint();
         }
         average = total / students.length;
         return average;
@@ -46,9 +46,9 @@ public class Course {
      * @return
      */
     public boolean checkOff(Student student, double point) {
-        for (int i = 0; i < students.length; i++) {
-            if (student.equals(students[i])) {
-                students[i].addPoints(point);
+        for (Student student1 : students) {
+            if (student.equals(student1)) {
+                student1.addPoints(point);
                 return true;
             }
         }
@@ -63,11 +63,11 @@ public class Course {
          * average mark of studets
          */
         double average = average();
-        for (int i = 0; i < students.length; i++) {
-            if (students[i].getPoint() < average) {
-                System.out.println(students[i] + " and failed");
+        for (Student student : students) {
+            if (student.getPoint() < average) {
+                System.out.println(student + " and failed");
             } else {
-                System.out.println(students[i] + " and Passed");
+                System.out.println(student + " and Passed");
             }
         }
     }
