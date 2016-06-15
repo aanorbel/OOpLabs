@@ -17,21 +17,21 @@ public class Mammal extends Animal {
      * Instantiates a new Mammal.
      *
      * @param name               the name
-     * @param numberOfamaryGland the number ofamary gland
+     * @param numberOfMammaryGland the number of mammary gland
      */
-    public Mammal(String name,int numberOfamaryGland) {
+    public Mammal(String name,int numberOfMammaryGland) {
         super(name);
-        this.numberOfamaryGland = numberOfamaryGland;
+        this.numberOfamaryGland = numberOfMammaryGland;
 
     }
 
     /**
      * Instantiates a new Mammal.
      *
-     * @param numberOfamaryGland the number ofamary gland
+     * @param numberOfMammaryGland the number of mammary gland
      */
-    public Mammal(int numberOfamaryGland) {
-        this.numberOfamaryGland = numberOfamaryGland;
+    public Mammal(int numberOfMammaryGland) {
+        this.numberOfamaryGland = numberOfMammaryGland;
     }
 
     @Override
