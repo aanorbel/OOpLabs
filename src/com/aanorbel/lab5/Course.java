@@ -13,15 +13,16 @@ public class Course {
     /**
      * Constructor
      *
-     * @param students
+     * @param students the students
      */
     public Course(Student[] students) {
         this.students = students;
     }
 
     /**
+     * Average double.
      *
-     * @return
+     * @return double
      */
     public double average() {
         /**
@@ -40,10 +41,11 @@ public class Course {
     }
 
     /**
+     * Check off boolean.
      *
-     * @param student
-     * @param point
-     * @return
+     * @param student the student
+     * @param point   the point
+     * @return boolean
      */
     public boolean checkOff(Student student, double point) {
         for (Student student1 : students) {

@@ -1,14 +1,16 @@
 package com.aanorbel.lab3;
+
 /**
- * 
+ * The type Main.
+ *
  * @author anorbel
  */
 public class Main {
-/**
- * 
- * 
- * @param args 
- */
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         double[] scores = {82.4, 72.6, 90, 96.8, 86.1};
 

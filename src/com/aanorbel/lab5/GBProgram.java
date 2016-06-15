@@ -1,15 +1,17 @@
 package com.aanorbel.lab5;
 
 /**
+ * The type Gb program.
  *
  * @author anorbel
  */
 class GBProgram {
 
     /**
+     * Main.
      *
-     * @param args
-     * @throws Exception
+     * @param args the args
+     * @throws Exception the exception
      */
     public static void main(String args[]) throws Exception {
         Student[] students = {

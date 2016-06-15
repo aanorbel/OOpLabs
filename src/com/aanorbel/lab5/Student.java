@@ -1,7 +1,7 @@
 package com.aanorbel.lab5;
 
 /**
- *Student
+ * Student
  */
 public class Student {
 
@@ -15,21 +15,27 @@ public class Student {
     double total = 0.0;
 
     /**
-     * @param name
+     * Instantiates a new Student.
+     *
+     * @param name the name
      */
     public Student(String name) {
         this.name = name;
     }
 
     /**
-     * @return
+     * Gets point.
+     *
+     * @return point
      */
     public double getPoint() {
         return total;
     }
 
     /**
-     * @param point
+     * Add points.
+     *
+     * @param point the point
      */
     public void addPoints(double point) {
         total += point;

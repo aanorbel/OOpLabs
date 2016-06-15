@@ -23,6 +23,7 @@ public class Student {
     ArrayList<Course> courses;
 
     /**
+     * Instantiates a new Student.
      *
      * @param name default constructor
      */
@@ -34,7 +35,7 @@ public class Student {
     /**
      * Adds a course to the Student’s list of courses.
      *
-     * @param courseName
+     * @param courseName the course name
      */
     public void addCourse(Course courseName) {
         this.courses.add(courseName);
@@ -43,7 +44,7 @@ public class Student {
     /**
      * Adds the given number of points to the points for a specific course
      *
-     * @param newPoints
+     * @param newPoints the new points
      */
     public void addPoints(double newPoints) {
         this.total += newPoints;
@@ -52,8 +53,8 @@ public class Student {
     /**
      * Returns the total points this student has earned for the course specified
      *
-     * @param courseName
-     * @return
+     * @param courseName the course name
+     * @return points
      */
     public double getPoints(Course courseName) {
         double sum = 0.0;
@@ -81,7 +82,7 @@ public class Student {
     /**
      * Returns the name of the student
      *
-     * @return
+     * @return name
      */
     public String getName() {
         return this.name;

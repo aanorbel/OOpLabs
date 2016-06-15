@@ -13,8 +13,9 @@ package com.aanorbel.lab6;
 public class GBProgram {
 
     /**
+     * The entry point of application.
      *
-     * @param args
+     * @param args the input arguments
      */
     public static void main(String[] args) {
 

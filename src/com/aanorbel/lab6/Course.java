@@ -3,7 +3,6 @@ package com.aanorbel.lab6;
 import java.util.ArrayList;
 
 /**
- *
  * store a list of pointers to each student in the course. hold a list of point
  * totals for each student in the course
  *
@@ -28,7 +27,7 @@ public class Course {
      * Creates a new Course that the given students are taking. Initialize the
      * ArrayList of students. Initialize the ArrayList of student grades.
      *
-     * @param courseName
+     * @param courseName the course name
      */
     Course(String courseName) {
         this.courseName = courseName;
@@ -40,7 +39,7 @@ public class Course {
     /**
      * Returns the name of the course
      *
-     * @return
+     * @return course name
      */
     public String getCourseName() {
         return courseName;
@@ -50,8 +49,8 @@ public class Course {
      * Adds points to the correct running point total in the ‘studentGrade’
      * ArrayList.
      *
-     * @param points
-     * @param Name
+     * @param points the points
+     * @param Name   the name
      */
     public void addPoints(double points, String Name) {
         for (int i = 0; i < this.students.size(); i++) {
@@ -64,8 +63,8 @@ public class Course {
     /**
      * Returns the total points for the student in the course.
      *
-     * @param studentName
-     * @return
+     * @param studentName the student name
+     * @return double
      */
     public double studentScore(Student studentName) {
         double total = 0.0;
@@ -80,7 +79,7 @@ public class Course {
     /**
      * Adds a student to the course. Adds the course to the student as well
      *
-     * @param stud
+     * @param stud the stud
      */
     public void addStudent(Student stud) {
         students.add(stud);
@@ -95,7 +94,7 @@ public class Course {
      * Returns the average of the total points of all the students in the
      * course.
      *
-     * @return
+     * @return double
      */
     public double averageAll() {
         double sum = 0.0;

@@ -1,13 +1,16 @@
 package com.aanorbel.lab4;
+
 /**
- * 
+ * The type Main.
+ *
  * @author anorbel
  */
 public class Main {
-/**
- * 
- * @param args 
- */
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         double[] scores = {82.4, 72.6, 90, 96.8, 86.1};
 
@@ -25,21 +28,25 @@ public class Main {
 
         histogram(scores);
     }
-/**
- * 
- * @param scores 
- */
+
+    /**
+     * Print grades.
+     *
+     * @param scores the scores
+     */
     public static void printGrades(double[] scores) {
         System.out.println("Letter grades : ");
         for (int i = 0; i < scores.length; i++) {
             System.out.println(scores[i] + " = " + letterGrade(scores[i]));
         }
     }
-/**
- * 
- * @param scores
- * @return 
- */
+
+    /**
+     * Letter grade char.
+     *
+     * @param scores the scores
+     * @return char
+     */
     public static char letterGrade(double scores) {
         char val;
         if (scores >= 90) {
@@ -55,10 +62,12 @@ public class Main {
         }
         return val;
     }
-/**
- * 
- * @param scores 
- */
+
+    /**
+     * Histogram.
+     *
+     * @param scores the scores
+     */
     public static void histogram(double[] scores) {
         System.out.print("A : ");
         for (int i = 0; i < scores.length; i++) {
@@ -100,11 +109,13 @@ public class Main {
         }
         System.out.println(" ");
     }
-/**
- * 
- * @param scores
- * @return 
- */
+
+    /**
+     * Max score double.
+     *
+     * @param scores the scores
+     * @return double
+     */
     public static double maxScore(double[] scores) {
         double max = scores[0];
         for (int i = 0; i < scores.length; i++) {
@@ -114,11 +125,13 @@ public class Main {
         }
         return max;
     }
-/**
- * 
- * @param scores
- * @return 
- */
+
+    /**
+     * Ave score double.
+     *
+     * @param scores the scores
+     * @return double
+     */
     public static double aveScore(double[] scores) {
         double sum = 0;
         for (int i = 0; i < scores.length; i++) {
@@ -126,10 +139,12 @@ public class Main {
         }
         return sum / scores.length;
     }
-/**
- * 
- * @param scores 
- */
+
+    /**
+     * Print scores.
+     *
+     * @param scores the scores
+     */
     public static void printScores(double[] scores) {
         System.out.print("The Scores are : ");
         for (int i = 0; i < scores.length; i++) {

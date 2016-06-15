@@ -1,13 +1,7 @@
 package com.aanorbel.lab5;
 
-/**
- * Created by anorbel on 3/31/16.
- */
 public class GBprogramTest {
 
-    /**
-     * @param args
-     */
     public static void main(String args[]) {
         Student student1 = new Student("Alice");
         student1.addPoints(23.0);
