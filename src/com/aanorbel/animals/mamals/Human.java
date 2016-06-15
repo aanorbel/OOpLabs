@@ -11,7 +11,7 @@ public class Human extends Animal {
     /**
      * The Family.
      */
-    String family = "mammal";
+    private String family = "mammal";
 
     /**
      * Instantiates a new Human.
@@ -35,7 +35,7 @@ public class Human extends Animal {
      *
      * @return the family
      */
-    public String getFamily() {
+    private String getFamily() {
         return "I am a "+family+". I am a Human.";
     }
 
@@ -43,6 +43,7 @@ public class Human extends Animal {
      * Gets type.
      *
      * @return
+     * string representation of the type.
      */
     @Override
     public String getType() {
