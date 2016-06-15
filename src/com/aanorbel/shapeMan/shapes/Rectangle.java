@@ -4,7 +4,7 @@ package com.aanorbel.shapeMan.shapes;
 import com.aanorbel.shapeMan.Shape;
 
 /**
- * The type Rectangle.
+ * The type RectangleAb.
  *
  * @author cressence
  */
@@ -13,7 +13,7 @@ public class Rectangle extends Shape {
     private double height;
 
     /**
-     * Instantiates a new Rectangle.
+     * Instantiates a new RectangleAb.
      *
      * @param width  the width
      * @param height the height

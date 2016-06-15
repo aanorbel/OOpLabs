@@ -4,7 +4,7 @@ package com.aanorbel.shapeMan.shapes;
 import com.aanorbel.shapeMan.Shape;
 
 /**
- * The type Circle.
+ * The type CircleAb.
  *
  * @author cressence
  */
@@ -12,11 +12,11 @@ public class Circle extends Shape {
     private double radius;
 
     /**
-     * Instantiates a new Circle.
+     * Instantiates a new CircleAb.
      *
      * @param radius the radius
-     * @param abs    the abs
-     * @param ord    the ord
+     * @param abs    the abscissa
+     * @param ord    the ordinate
      */
     public Circle(double radius, double abs, double ord) {
         super(abs, ord);
@@ -52,18 +52,18 @@ public class Circle extends Shape {
     }
 
     /**
-     * Circonference double.
+     * Circumference double.
      *
      * @return the double
      */
-    public double circonference(){
+    public double circunference() {
      return 2 * Math.PI* this.radius;
  }
  
  @Override
  public void display(){
      super.display();
-     System.out.println(" Raduis : " + this.radius);
+     System.out.println(" Radii : " + this.radius);
  }
     
 }

@@ -2,14 +2,14 @@
 package com.aanorbel.shapeMan;
 
 /**
- * The type Shape.
+ * The type ShapeAb.
  */
 public class Shape {
     private double abs;
     private double ord;
 
     /**
-     * Instantiates a new Shape.
+     * Instantiates a new ShapeAb.
      *
      * @param abs the abs
      * @param ord the ord

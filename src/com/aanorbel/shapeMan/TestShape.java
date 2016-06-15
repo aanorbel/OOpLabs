@@ -26,7 +26,7 @@ public class TestShape {
         for(Shape s : shape ) {
             s.display();
             if(s instanceof Circle) {
-                System.out.println("Area : " + ((Circle)s).circonference());
+                System.out.println("Area : " + ((Circle) s).circunference());
         }else if (s instanceof Rectangle) {
             System.out.println("Circonference : " + ((Rectangle)s).circunference());
             System.out.println("Area : " + ((Rectangle)s).area());
