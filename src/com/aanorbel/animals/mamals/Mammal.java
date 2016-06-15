@@ -1,6 +1,6 @@
-package com.aanorbel.animals;
+package com.aanorbel.animals.mamals;
 
-import com.aanorbel.animals.mamals.Animal;
+import com.aanorbel.animals.Animal;
 
 /**
  * Created by anorbel on 6/15/16.

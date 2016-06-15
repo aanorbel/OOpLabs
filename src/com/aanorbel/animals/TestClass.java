@@ -1,6 +1,5 @@
 package com.aanorbel.animals;
 
-import com.aanorbel.animals.mamals.Animal;
 import com.aanorbel.animals.mamals.subclasses.Dog;
 import com.aanorbel.animals.mamals.subclasses.Human;
 

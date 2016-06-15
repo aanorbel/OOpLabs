@@ -1,4 +1,4 @@
-package com.aanorbel.animals.mamals;
+package com.aanorbel.animals;
 
 /**
  * Created by anorbel on 6/15/16.

@@ -1,6 +1,6 @@
 package com.aanorbel.animals.mamals.subclasses;
 
-import com.aanorbel.animals.Mammal;
+import com.aanorbel.animals.mamals.Mammal;
 
 /**
  * Created by anorbel on 6/15/16.
