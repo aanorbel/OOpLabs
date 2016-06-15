@@ -1,4 +1,4 @@
-package com.aanorbel.animals;
+package com.aanorbel.animals.mamals;
 
 /**
  * Created by anorbel on 6/15/16.
@@ -14,7 +14,6 @@ public class Animal {
      * The Type.
      */
     private String type;
-
     /**
      * Instantiates a new Animal.
      *

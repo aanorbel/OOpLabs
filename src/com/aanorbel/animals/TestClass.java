@@ -1,7 +1,8 @@
 package com.aanorbel.animals;
 
-import com.aanorbel.animals.mamals.Dog;
-import com.aanorbel.animals.mamals.Human;
+import com.aanorbel.animals.mamals.Animal;
+import com.aanorbel.animals.mamals.subclasses.Dog;
+import com.aanorbel.animals.mamals.subclasses.Human;
 
 /**
  * Created by anorbel on 6/15/16.

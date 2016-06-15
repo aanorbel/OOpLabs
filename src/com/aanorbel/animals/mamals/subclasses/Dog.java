@@ -1,17 +1,17 @@
-package com.aanorbel.animals.mamals;
+package com.aanorbel.animals.mamals.subclasses;
 
-import com.aanorbel.animals.Animal;
+import com.aanorbel.animals.Mammal;
 
 /**
  * Created by anorbel on 6/15/16.
  * package com.aanorbel.animals.mamals, project OOPLaps
  * class function
  */
-public class Dog extends Animal {
+public class Dog extends Mammal {
     /**
-     * The Family.
+     * The Color.
      */
-    private String family = "mammal";
+    private String color = " gray";
 
     /**
      * Instantiates a new Dog.
@@ -19,16 +19,7 @@ public class Dog extends Animal {
      * @param name the name
      */
     public Dog(String name) {
-        super(name);
-    }
-
-    /**
-     * Gets family.
-     *
-     * @return the family
-     */
-    private String getFamily() {
-        return "I am a "+family+". I am a Dog.";
+        super(name,4);
     }
 
     /**
@@ -39,6 +30,6 @@ public class Dog extends Animal {
      */
     @Override
     public String getType() {
-        return super.getType()+getFamily();
+        return super.getType()+" I am a Dog. I am "+color;
     }
 }

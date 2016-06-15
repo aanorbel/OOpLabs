@@ -1,17 +1,17 @@
-package com.aanorbel.animals.mamals;
+package com.aanorbel.animals.mamals.subclasses;
 
-import com.aanorbel.animals.Animal;
+import com.aanorbel.animals.Mammal;
 
 /**
  * Created by anorbel on 6/15/16.
  * package com.aanorbel.animals.mamals, project OOPLaps
  * class function
  */
-public class Human extends Animal {
+public class Human extends Mammal {
     /**
-     * The Family.
+     * The Race.
      */
-    private String family = "mammal";
+    private String race = "Black";
 
     /**
      * Instantiates a new Human.
@@ -19,7 +19,7 @@ public class Human extends Animal {
      * @param name the name
      */
     public Human(String name) {
-        super(name);
+        super(name,2);
 
     }
 
@@ -27,16 +27,7 @@ public class Human extends Animal {
      * Instantiates a new Human.
      */
     public Human() {
-        super();
-    }
-
-    /**
-     * Gets family.
-     *
-     * @return the family
-     */
-    private String getFamily() {
-        return "I am a "+family+". I am a Human.";
+        super(2);
     }
 
     /**
@@ -47,6 +38,6 @@ public class Human extends Animal {
      */
     @Override
     public String getType() {
-        return super.getType()+getFamily();
+        return super.getType()+" I am a Human . I am a "+race;
     }
 }
