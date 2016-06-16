@@ -17,7 +17,7 @@ public class Point implements Displayable {
      * @throws Exception the exception
      */
     public Point(double x, double y) throws Exception {
-        if (x < 0 || y < 0) throw new Exception("Negative arguments");
+        if (x < 0 || y < 0) throw new Exception("Error : Negative arguments");
         this.x = x;
         this.y = y;
     }

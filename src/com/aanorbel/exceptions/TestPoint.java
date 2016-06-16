@@ -9,10 +9,13 @@ public class TestPoint {
     public static void main(String[] args) {
         try {
 
-            Point point1 = new Point(2.0, 7.3);
+            Point point1 = new Point(-2.0, 7.3);
             point1.dispay();
-
-            Point point2 = new Point(-2.2, 5.1);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        try {
+            Point point2 = new Point(2.2, 5.1);
             point2.dispay();
         } catch (Exception e) {
             System.out.println(e.getMessage());

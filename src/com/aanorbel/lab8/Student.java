@@ -9,11 +9,11 @@ public abstract class Student {
     /**
      * The Name.
      */
-    String name;
+    private String name;
     /**
      * The Courses.
      */
-    String[] courses;
+    private String[] courses;
 
     /**
      * Instantiates a new Student.
