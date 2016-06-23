@@ -1,0 +1,13 @@
+CREATE SCHEMA IF NOT EXISTS `students` DEFAULT CHARACTER SET utf8 ;
+USE `students` ;
+
+-- -----------------------------------------------------
+-- Table `students`.`students`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `students`.`students` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `matricule` VARCHAR(10) NULL,
+  `age` INT NULL,
+  `gender` VARCHAR(2) NULL,
+  `name` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
